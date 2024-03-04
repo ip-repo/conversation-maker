@@ -12,7 +12,7 @@ When you open the program you will see a text area.
 This text area is where the user can construct his conversation.
 Each conversation part should a start command and text the will follow in the next line.
 
-The syntax of a start command:<br>
+#### The syntax of a start command:<br>
 Each start line should have exactly for settings and after a setting is it a most to add a : sign.<br>
 The sart line command must have 4 : signs, one after each setting.
 
@@ -34,7 +34,16 @@ pyttsx3 examples:
 [start]pyttsx3:0:125:7.3:
 [start]pyttsx3:1:70:10.0:
 ```
+#### Help command
+if you want to get more information about how to use the program type in text area **[help]**
+and click on the run button and window with help inforamtion will appear.
+
+```console
+[help]
+```
+
 ### How to install:
+
 This program use a few python modules so make sure to install them.
 ```console
 git clone https://github.com/ip-repo/conversation-maker.git
