@@ -9,8 +9,8 @@ A PySide6 text to speech program that allow user to create speech conversations 
 
 When you open the program you will see a text area.
 
-This text area is where the user can construct his conversation.
-Each conversation part should a start command and text the will follow in the next line.
+This text area is where the user can construct his conversation.<br>
+Each conversation part should have a start command and text the will follow in the next line.
 
 #### The syntax of a start command:<br>
 Each start line should have exactly for settings and after a setting is it a most to add a : sign.<br>
