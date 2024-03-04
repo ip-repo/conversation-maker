@@ -1,0 +1,5 @@
+[start]pyttsx3:0:150:1.0:
+Hello, this conversation part is made with the text to speech engine pyttsx3.
+[start]gtts:English:com:False:
+And this conversation part is made with the text to speech engine gtts.
+Go ahead and click the run button.. that is the button with the red arrow.
