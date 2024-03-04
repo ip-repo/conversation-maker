@@ -1,0 +1,95 @@
+
+QWidget {
+    background-color: #CBCDCE;
+    color: black;
+}
+
+QPushButton {
+    background-color: #CBCDCE;
+    color:black;
+    qproperty-iconSize: 40px;
+    border:none;
+  
+}
+
+QPushButton:hover {
+    background-color: white;
+    color:#81aea2;
+    
+}
+
+QTextEdit {
+    background:#81aea2;
+    color: black;
+    border:none;
+    font-size:30pt;
+    font-family: 'Segoe Script';
+}
+QComboBox {
+    color: black;
+    background:#81aea2;
+    border:none;
+}
+QLineEdit {
+    color: black;
+    background:#81aea2;
+    border:none
+}
+
+QDoubleSpinBox {
+    color: black;
+    background:#81aea2;
+    border:none
+}
+QListView{
+    background: #81aea2;
+    color:black;
+}
+
+
+QCheckBox{
+    color: black;
+    background:#81aea2;
+    border:none
+}
+
+
+ QLabel {
+    color: black;
+    border:none
+}
+
+QButtonBox{
+    color: black;
+    background:#81aea2;
+    border:none
+}
+
+
+
+QSlider::groove:horizontal {
+    height: 8px; 
+    background: red;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #CBCDCE;
+    border: 1px solid #5c5c5c;
+    width: 18px;
+    margin: -2px 0; 
+    border-radius: 3px;
+    border-color:#81aea2;
+}
+
+QSlider::sub-page:horizontal {
+    background: #81aea2;   
+    height: 10px;
+    border-radius: 2px;
+}
+
+QSlider::add-page:horizontal {
+    background:  #CBCDCE;  
+    height: 10px;
+    border-radius: 2px;
+}
