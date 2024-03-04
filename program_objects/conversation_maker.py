@@ -5,12 +5,12 @@ import requests
 from PySide6.QtWidgets import  (QWidget,QFileDialog, QHBoxLayout,QVBoxLayout,QTextEdit,
 								 QFontComboBox,QDoubleSpinBox)
 from PySide6.QtCore import  QThreadPool, QUrl
-
 from program_objects.side_pannel import SidePannel
 from program_objects.settings_dialog import SettingsDialog
 from program_objects.workers import Worker
 from program_objects.audio_player import AudioPlayer
 from program_objects.info_dialog import InfoDialog
+
 
 
 
