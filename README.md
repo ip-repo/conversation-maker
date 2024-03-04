@@ -19,7 +19,7 @@ The sart line command must have 4 : signs, one after each setting.
 ```console
 [start]engine-name:settings-1:settings-2:setting-3:
 setting1 - engine name : [pyttsx3, gtts]
-setting2 -  for gtts a language allowed [English, Latin,...] you can see available languages in settings dialog.
+setting2 - for gtts a language allowed [English, Latin,...] you can see available languages in settings dialog.
 setting2 - for pyttsx3 this will represent the voice to use that are installed on system but you can install more - [0,1]
 setting3 - for gtts a accent allowed [com,com.au....] you can see available tlds in settings dialog.
 setting3 - for pyttsx3 choose rate a number between (0,200) you can use higher values but then the speech will be fast
