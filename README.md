@@ -83,5 +83,5 @@ python run.py
 - this program was made for windows, if you want to use it for linux make sure to changes path in workers.py and run.py.
   
 You can also explore other text to speech projects on this github:
-- <a href="https://github.com/ip-repo/text-to-speech-webpage/">Text to Speech webpage</a>
+- <a href="https://github.com/ip-repo/text-to-speech-webpage/blob/main/README.md">Text to Speech webpage</a>
 - <a href="https://github.com/ip-repo/guides/blob/main/example-tts-pyside6/example-tts-pyside6.md">Different pyside6 widgets with different tts engines</a>
