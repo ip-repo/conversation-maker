@@ -6,6 +6,36 @@ A PySide6 text to speech program that allow user to create speech conversations 
 <hr>
 
 ### How to use:
+
+When you open the program you will see a text area.
+This text area is where the user can construct his conversation.
+Each conversation part should a start command and text the will follow in the next line.
+
+The syntax of a start command:
+
+Each start line should have exactly for settings and after a setting is it a most to add a : sign.
+
+The sart line command must have 4 : signs, one after each setting.
+
+```console
+[start]engine-name:settings-1:settings-2:setting-3:
+
+```
+gtts examples:
+```console
+[start]:gtts-str:language-str:accent(tld)-str:slow-str:
+------------------------------------------------------
+[start]gtts:English:com:False:
+[start]gtts:Latin:com:True:
+```
+pyttsx3 examples:
+```console
+[start]pyttsx3-str:voice-index-int:rate-int:volume-float:
+
+[start]pyttsx3:0:125:7.3:
+[start]pyttsx3:1:70:10.0:
+```
+### How to install:
 This program use a few python modules so make sure to install them.
 ```console
 git clone https://github.com/ip-repo/conversation-maker.git
