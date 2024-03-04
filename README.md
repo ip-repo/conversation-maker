@@ -36,7 +36,7 @@ pyttsx3 examples:
 ```
 #### Help command
 if you want to get more information about how to use the program type in text area **[help]**
-and click on the run button and window with help inforamtion will appear.
+and click on the run button and a window with help inforamtion will appear.
 
 ```console
 [help]
@@ -70,3 +70,8 @@ pip install -r requirements.txt
 python run.py
 
 ```
+## A few notes:
+- gtts require internet connection so if your offline you will be able to the use only pyttsx3 engine (the program will notify you).
+- in order to avoid qmediaplayer conflict please avoid of resaving a speech file with the same name as a prior speech file( if the new file format isn't the same it ok) if you dont follow this instruction the Slider in the program might not perform as expected.
+- this program was made for windows, if you want to use it for linux make sure to changes path in workers.py and run.py
+  
