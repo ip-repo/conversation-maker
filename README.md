@@ -22,3 +22,13 @@ cd conversation-maker #get into the project directory
 python run.py
 
 ```
+Or
+```console
+git clone https://github.com/ip-repo/conversation-maker.git
+python -m venv cm-venv #create a virtual environment 
+cm-venv\Scripts\activate #activate venv
+pip install -r requirements.txt
+cd conversation-maker #get into the project directory
+python run.py
+
+```
