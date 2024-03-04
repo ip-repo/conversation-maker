@@ -20,7 +20,7 @@ The sart line command must have 4 : signs, one after each setting.
 [start]engine-name:settings-1:settings-2:setting-3:
 setting1- engine name : [pyttsx3, gtts]
 setting2 -  for gtts a language allowed [English, Latin,...] you can see available languages in settings dialog.
-setting2 - for pyttsx3 this will represent the voice to use, usally windows come with two voices but you can install more - [0,1]
+setting2 - for pyttsx3 this will represent the voice to use that are installed on system but you can install more - [0,1]
 setting3 - for gtts a accent allowed [com,com.au....] you can see available tlds in settings dialog.
 setting3 - for pyttsx3 choose rate a number between (0,200) you can use higher values but then the speech will be fast
 setting4 - for gtts this setting will slow the speech speed. [False, True]
@@ -80,5 +80,5 @@ python run.py
 ## A few notes:
 - gtts require internet connection so if your offline you will be able to the use only pyttsx3 engine (the program will notify you).
 - in order to avoid qmediaplayer conflicst please avoid of resaving a new speech file with the same name as a prior speech file( if the new file format isn't the same as an old one then it ok) if you dont follow this instruction the Slider in the program might not perform as expected.
-- this program was made for windows, if you want to use it for linux make sure to changes path in workers.py and run.py
+- this program was made for windows, if you want to use it for linux make sure to changes path in workers.py and run.py.
   
