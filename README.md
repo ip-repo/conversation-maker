@@ -1,2 +1,6 @@
-# conversation-maker
-PySide6 text to speech program that allow user to create speech from text conversations.
+# conversation-maker: turn text conversations to speech.
+
+<img src="conversation-maker.png"></img>
+
+PySide6 text to speech allow user to create speech conversations from text conversations.
+<hr>
