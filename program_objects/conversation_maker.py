@@ -58,15 +58,13 @@ class ConversationMaker(QWidget):
 		"""
 		This method init important objects and signals.
 		"""
-		engine = pyttsx3.init()
 		self.counter = 1
 		self.file_dialog = QFileDialog()
 		self.thread_pool = QThreadPool()
 		self.settings_data = {"pyttsx3" : {"voice" : 0,
-							 "volume": 1.0 , "rate" : 150 },
+							 "volume": 10.0 , "rate" : 150 },
 						"gtts" : {"lang" : "English", "tld" : "com", "slow" : False}}
-		
-		del engine
+
 		self.side_pannel.settings_btn.clicked.connect(self.update_settings)
 		self.side_pannel.add_pytts_btn.clicked.connect(self.add_pytts)
 		self.side_pannel.add_gtts_btn.clicked.connect(self.add_gtts)
